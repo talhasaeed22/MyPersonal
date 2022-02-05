@@ -1,0 +1,9 @@
+body{
+    background: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+}
+
+#logo{
+    font-family: 'Satisfy', cursive;
+}
