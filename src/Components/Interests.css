@@ -1,0 +1,26 @@
+.para-heading{
+    padding: 32px 42px;
+}
+ .my-5 {
+    margin-top: 8rem!important;
+    margin-bottom: 8rem!important;
+}
+.interests-container{
+    width: 80%;
+    background-color: oldlace;
+    border-radius: 23px;
+    border: 1px solid grey;
+}
+.interests-container img{
+    border-radius: 12px;
+}
+
+@media (max-width:420px){
+    .interests-container img{
+        width: 100%;
+        
+    }
+    .interests-container p{
+        font-size: 0.8rem;
+    }
+}

@@ -24,6 +24,10 @@
     margin: 0% 15%;
     color:black;
     padding: 0px 21px;
+    transition: all 0.4s ease-in-out;
+}
+.icon i:hover{
+    transform: scale(1.4)
 }
 .boxes{
     border: 1px solid grey;

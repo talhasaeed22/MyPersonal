@@ -7,3 +7,10 @@ body{
 #logo{
     font-family: 'Satisfy', cursive;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
