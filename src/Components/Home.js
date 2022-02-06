@@ -25,7 +25,8 @@ function Home(props) {
                     </div>
                 </div>
             </div>
-            <div className="container d-flex about-container my-5">
+            <hr className='my-5 '/>
+            <div className="container d-flex about-container my-3">
                 <div className="row">
                     <div className="col-lg-4 col-sm-12">
                         <div style={{ border: props.mode === 'light' ? '1px solid grey' : '1px solid black' }} className="boxes m-5 mx-3 p-3 " id="boxes1">
