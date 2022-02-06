@@ -1,6 +1,3 @@
-.para-heading{
-    padding: 32px 42px;
-}
  .my-5 {
     margin-top: 8rem!important;
     margin-bottom: 8rem!important;
@@ -22,5 +19,9 @@
     }
     .interests-container p{
         font-size: 0.8rem;
+    }
+    .head-container p{
+        width: 90%;
+        margin: 23px 12px;
     }
 }

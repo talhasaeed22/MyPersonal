@@ -9,6 +9,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Education from './Components/Education';
+import Experience from './Components/Experience';
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -28,7 +30,11 @@ function App() {
         <Routes>
         <Route path="/" element={<Home mode = {mode} switchMode={switchMode}/>}> 
         </Route>
-        <Route path="/Interests" element={<Interests mode = {mode}/>}>
+        <Route path="/Interests" element={<Interests page='interests' mode = {mode}/>}>
+        </Route>
+        <Route path="/Education" element={<Education mode = {mode}/>}>
+        </Route>
+        <Route path="/Experience" element={<Experience mode = {mode}/>}>
         </Route>
         </Routes>
       </Router>

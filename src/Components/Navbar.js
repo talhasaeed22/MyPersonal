@@ -24,10 +24,10 @@ function Navbar(props) {
                                 <Link className="nav-link " aria-current="page" to="/Interests">Interests</Link>
                             </li>
                             <li className="nav-item mx-4">
-                                <a className="nav-link " aria-current="page" href="/">Education</a>
+                                <Link className="nav-link " aria-current="page" to="/Education">Education</Link>
                             </li>
                             <li className="nav-item mx-4">
-                                <a className="nav-link " aria-current="page" href="/">Experience</a>
+                                <Link className="nav-link " aria-current="page" to="/Experience">Experience</Link>
                             </li>
                         </ul>
                         <div className="form-check form-switch text-light mx-3 ">
