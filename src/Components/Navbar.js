@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from '../img/logo.png'
 import './Navbar.css';
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 
 function Navbar(props) {
+    const location = useLocation();
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -18,16 +19,16 @@ function Navbar(props) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             <li className="nav-item mx-4">
-                                <Link className="nav-link " aria-current="page" to="/">Home</Link>
+                                <Link className={`nav-link ${location.pathname === '/'?"active":""}`} aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item mx-4">
-                                <Link className="nav-link " aria-current="page" to="/Interests">Interests</Link>
+                                <Link className={`nav-link ${location.pathname === '/Interests'?"active":""}`} aria-current="page" to="/Interests">Interests</Link>
                             </li>
                             <li className="nav-item mx-4">
-                                <Link className="nav-link " aria-current="page" to="/Education">Education</Link>
+                                <Link className={`nav-link ${location.pathname === '/Education'?"active":""}`} aria-current="page" to="/Education">Education</Link>
                             </li>
                             <li className="nav-item mx-4">
-                                <Link className="nav-link " aria-current="page" to="/Experience">Experience</Link>
+                                <Link className={`nav-link ${location.pathname === '/Experience'?"active":""}`} aria-current="page" to="/Experience">Experience</Link>
                             </li>
                         </ul>
                         <div className="form-check form-switch text-light mx-3 ">

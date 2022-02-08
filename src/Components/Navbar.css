@@ -14,3 +14,6 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover {
     color: orange;
 }
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: orange;
+}
